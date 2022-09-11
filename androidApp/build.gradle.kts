@@ -6,7 +6,7 @@ plugins {
 android {
     compileSdk = 32
     defaultConfig {
-        applicationId = "com.lauruscorp.kotlinmultiplatformhandsonnetworkinganddatastorage.android"
+        applicationId = "com.lauruscorp.kmm_example.android"
         minSdk = 21
         targetSdk = 32
         versionCode = 1
