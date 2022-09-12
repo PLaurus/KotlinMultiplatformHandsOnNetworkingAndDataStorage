@@ -25,7 +25,7 @@ data class RocketLaunch(
 	@Serializable
 	data class Rocket(
 		@SerialName("rocket_id")
-		val id: Int,
+		val id: String,
 		@SerialName("rocket_name")
 		val name: String,
 		@SerialName("rocket_type")
@@ -37,6 +37,6 @@ data class RocketLaunch(
 		@SerialName("mission_patch")
 		val missionPatchUrl: String?,
 		@SerialName("article_link")
-		val articleLink: String
+		val articleUrl: String?
 	)
 }
